@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto - SneakerPro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="SneakerPro Logo">
+            <span>SneakerPro</span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#nuevos">Nuevos</a></li>
+                <li><a href="index.html#usados">Usados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="detalle-producto">
+        <section class="imagen-principal">
+            <img id="producto-imagen" src="" alt="Tenis seleccionado">
+            <div class="galeria-mini">
+            </div>
+        </section>
+
+        <section class="info-producto">
+            <h2 id="producto-nombre"></h2>
+            <p class="categoria" id="producto-categoria"></p>
+            <p id="producto-precio" class="precio"></p>
+            <p id="producto-descripcion" class="descripcion"></p>
+            
+            <div class="especificaciones">
+                <h3> Especificaciones</h3>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <span class="spec-label">Talla:</span>
+                        <span id="spec-talla" class="spec-value"></span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Condición:</span>
+                        <span id="spec-condicion" class="spec-value"></span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Estado:</span>
+                        <span id="spec-estado" class="spec-value"></span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Incluye caja:</span>
+                        <span id="spec-caja" class="spec-value"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vendedor-info">
+                <h3> Vendedor</h3>
+                <p id="alumno-nombre"></p>
+                <p id="alumno-carrera"></p>
+                <p class="calificacion">⭐⭐⭐⭐⭐ (4.8/5)</p>
+            </div>
+
+            <div class="acciones">
+                <a id="whatsapp-btn" class="btn-comprar" target="_blank">
+                    <img src="img/icono-whatsapp.jpg" alt="WhatsApp"> Contactar por WhatsApp
+                </a>
+                <button class="btn-favorito">❤️ Agregar a favoritos</button>
+            </div>
+        </section>
+    </section>
+
+    <section class="productos-similares">
+        <h3>🔄 También te podría interesar</h3>
+        <div id="similares" class="carrusel-similares"></div>
+    </section>
+
+    <section class="info-entrega">
+        <div class="info-box">
+            <h4> Envío</h4>
+            <p>• Envío gratis en compras mayores a $2,500</p>
+            <p>• Entrega en 2-4 días hábiles</p>
+            <p>• Seguimiento en tiempo real</p>
+        </div>
+        <div class="info-box">
+            <h4> Garantía</h4>
+            <p>• 7 días para cambio o devolución</p>
+            <p>• Autenticidad 100% garantizada</p>
+            <p>• Fotos reales del producto</p>
+        </div>
+        <div class="info-box">
+            <h4> Pago</h4>
+            <p>• Transferencia bancaria</p>
+            <p>• Mercado Pago</p>
+            <p>• Efectivo al recibir</p>
+        </div>
+    </section>
+
+    <footer>
+        <h3>SneakerPro - Tu comunidad de tenis</h3>
+        <div class="footer-links">
+            <a href="#">Política de privacidad</a>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Cómo comprar</a>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Contacto</a>
+        </div>
+        <p>© 2024 SneakerPro - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
